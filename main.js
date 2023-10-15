@@ -79,7 +79,7 @@ function validate() {
 }
 
 
-//HAndling
+
 function onFormSubmit() {
     if (validate()) {
         var formData = readFormData();
