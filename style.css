@@ -24,9 +24,11 @@ h1{
 
 .employees-table {
     border-style: solid;
+    border-color: #17371e;
     padding: 20px;
     margin: auto;
     width: 70%;
+    color: aqua
 
 }
 
