@@ -28,7 +28,7 @@ h1{
     padding: 20px;
     margin: auto;
     width: 70%;
-    color: aqua
+    color: rgb(4, 83, 83)
 
 }
 
@@ -49,7 +49,7 @@ td, th {
     padding: 8px;
 }
 tr:nth-child(even),table.list thead>tr {
-    background-color: #454141;
+    background-color: #a5a3a3;
 }
 
 input[type=text], input[type=number] {

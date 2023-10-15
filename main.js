@@ -32,8 +32,8 @@ function insertNewRecord(data) {
     cell4 = newRow.insertCell(3);
     cell4.innerHTML = data.fecha;
     cell4 = newRow.insertCell(4);
-    cell4.innerHTML = `<a onClick="onEdit(this)">Edit</a>
-                       <a onClick="onDelete(this)">Delete</a>`;
+    cell4.innerHTML = `<a onClick="onEdit(this)">Editar</a>
+                       <a onClick="onDelete(this)">Borrar</a>`;
 }
 
 function resetForm() {
@@ -59,7 +59,7 @@ function updateRecord(formData) {
 }
 
 function onDelete(td) {
-    if (confirm('Are you sure to delete this record ?')) {
+    if (confirm('Esta seguro de borrar este registro ?')) {
         row = td.parentElement.parentElement;
         document.getElementById("employeeList").deleteRow(row.rowIndex);
         resetForm();
@@ -104,8 +104,8 @@ function insertNewRecord(data) {
     cell4 = newRow.insertCell(3);
     cell4.innerHTML = data.fecha;
     cell4 = newRow.insertCell(4);
-    cell4.innerHTML = `<a onClick="onEdit(this)">Edit</a>
-                       <a onClick="onDelete(this)">Delete</a>`;
+    cell4.innerHTML = `<a onClick="onEdit(this)">Editar</a>
+                       <a onClick="onDelete(this)">Borrar</a>`;
 }
 
 //edit and delete
@@ -139,7 +139,7 @@ function updateRecord(formData) {
 
 //delete
 function onDelete(td) {
-    if (confirm('Are you sure to delete this record ?')) {
+    if (confirm('Esta seguro de borrar este registro ?')) {
         row = td.parentElement.parentElement;
         document.getElementById("employeeList").deleteRow(row.rowIndex);
         resetForm();
